@@ -1,0 +1,30 @@
+<div id="calculator">
+  <div  id="display">
+    <div id="operations"></div>
+      <div id="previous-operation"></div>
+      <div id="current-operation"></div>
+    </div>
+  <div id="buttons-container">
+    <button (click)="clear()" id="ce">CE</button>
+    <button (click)="clear()" id="clear">C</button>
+    <button (click)="delete()" id="delete">DEL</button>
+    <button (click)="chooseOperation('+')">+</button>
+    <button class="number">7</button>
+    <button class="number">8</button>
+    <button class="number">9</button>
+    <button (click)="chooseOperation('*')">*</button>
+    <button class="number">4</button>
+    <button class="number">5</button>
+    <button class="number">6</button>
+    <button (click)="chooseOperation('-')">-</button>
+    <button class="number">1</button>
+    <button class="number">2</button>
+    <button class="number">3</button>
+    <button (click)="chooseOperation('/')">/</button>
+    <button class="number">0</button>
+    <button class="number">.</button>
+    <button (click)="compute()" id="equal-btn">=</button>
+
+  </div>
+</div>
+
